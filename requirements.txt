@@ -1,11 +1,16 @@
 streamlit>=1.22.0       # Replace with the latest version if needed
-tensorflow>=2.10.0      # Ensure TensorFlow version matches your code
-torch==2.0.1+cpu                   # PyTorch
 ultralytics==8.0.166             # YOLOv5
-Pillow>=8.0.0                  # Image processing
-numpy>=1.21.0,<1.25.0                   # Array handling
-opencv-python==4.7.0.72           # OpenCV for image processing
 paddleocr==2.6.0               # PaddleOCR for text recognition
 paddlepaddle==2.6.2            # Required by PaddleOCR
 pytesseract==0.3.10             # OCR tool
 transformers==4.31.0
+torch==2.0.1
+tensorflow==2.10.0
+opencv-python
+pillow
+numpy
+pandas
+scikit-learn
+matplotlib
+sqlite3  # Optional, built-in in Python
+
