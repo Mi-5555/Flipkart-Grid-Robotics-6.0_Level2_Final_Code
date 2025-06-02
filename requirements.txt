@@ -12,5 +12,4 @@ numpy
 pandas
 scikit-learn
 matplotlib
-sqlite3  # Optional, built-in in Python
 
